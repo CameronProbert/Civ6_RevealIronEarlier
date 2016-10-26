@@ -7,5 +7,5 @@
 --Reveals Iron at Mining:
 
 UPDATE Resources 
-	SET PrereqTech = "TECH_MINING";
+	SET PrereqTech = "TECH_MINING"
 	WHERE ResourceType = "RESOURCE_IRON"
